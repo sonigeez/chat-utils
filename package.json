@@ -1,0 +1,25 @@
+{
+  "name": "ab-testing",
+  "module": "main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts",
+    "puppeteer": "node puppeteer.js",
+    "flight": "node flight-scrapping.js",
+    "watch": "bun --watch main.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@jitsi/robotjs": "^0.6.13",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "jimp": "^0.22.12",
+    "openai": "^4.55.4",
+    "puppeteer": "^23.1.0",
+    "sharp": "^0.33.4",
+    "util": "^0.12.5",
+    "zod": "^3.23.8"
+  }
+}
